@@ -347,7 +347,7 @@ export default function CosmicLogin() {
                   style={{ animation: `slideUp 0.5s ease-out forwards ${i * 0.1}s`, opacity: 0 }}
                 >
                   <div className="text-2xl mb-2">{stat.icon}</div>
-                  <div className={`text-2xl font-bold bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`}>
+                  <div className={`text-2xl font-bold bg-linear-to-r ${stat.color} bg-clip-text text-transparent`}>
                     {stat.value}
                   </div>
                   <div className="text-gray-500 text-sm">{stat.label}</div>
@@ -360,7 +360,7 @@ export default function CosmicLogin() {
               {['🗺️ Star Map', '📡 Communications', '🛠️ Ship Systems'].map((action, i) => (
                 <button
                   key={i}
-                  className="p-4 rounded-xl bg-gradient-to-r from-indigo-600/20 to-purple-600/20 border border-white/10 text-white hover:from-indigo-600/30 hover:to-purple-600/30 transition-all hover:scale-105"
+                  className="p-4 rounded-xl bg-linear-to-r from-indigo-600/20 to-purple-600/20 border border-white/10 text-white hover:from-indigo-600/30 hover:to-purple-600/30 transition-all hover:scale-105"
                   style={{ animation: `slideUp 0.5s ease-out forwards ${0.4 + i * 0.1}s`, opacity: 0 }}
                 >
                   {action}

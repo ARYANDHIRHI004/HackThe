@@ -70,7 +70,7 @@ const SignUpPage = ({ onTransition }) => {
 
       <div className="signup-card w-full max-w-md relative z-10">
         <div className="p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-600/10 via-transparent to-blue-600/10" />
+          <div className="absolute inset-0 bg-linear-to-br from-purple-600/10 via-transparent to-blue-600/10" />
 
           <div className="relative">
             <div className="flex items-center justify-center gap-2 mb-8">
@@ -138,7 +138,7 @@ const SignUpPage = ({ onTransition }) => {
 
               <button
                 onClick={onTransition}
-                className="submit-btn w-full py-4 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold hover:opacity-90 transition flex items-center justify-center gap-2 mt-6"
+                className="submit-btn w-full py-4 rounded-xl bg-linear-to-r from-purple-600 to-blue-600 text-white font-semibold hover:opacity-90 transition flex items-center justify-center gap-2 mt-6"
                 style={{ boxShadow: "0 0 30px rgba(168,85,247,0.4)" }}
               >
                 Launch Into Space <ChevronRight className="w-5 h-5" />
@@ -226,7 +226,7 @@ const Dashboard = () => (
         <button className="p-2 rounded-full bg-white/5 border border-white/10 text-slate-400 hover:text-white transition">
           <Settings className="w-5 h-5" />
         </button>
-        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white font-semibold">
+        <div className="w-10 h-10 rounded-full bg-linear-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white font-semibold">
           A
         </div>
       </div>
@@ -308,7 +308,7 @@ const Dashboard = () => (
                 className="flex items-center justify-between p-4 rounded-xl bg-white/5 border border-white/10 hover:border-purple-500/30 transition"
               >
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-600/30 to-blue-600/30 flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-linear-to-br from-purple-600/30 to-blue-600/30 flex items-center justify-center">
                     <Globe className="w-5 h-5 text-purple-400" />
                   </div>
                   <div>
@@ -356,7 +356,7 @@ const Dashboard = () => (
           </div>
         </div>
 
-        <div className="p-6 rounded-2xl bg-gradient-to-br from-purple-600/20 to-blue-600/20 backdrop-blur border border-purple-500/30">
+        <div className="p-6 rounded-2xl bg-linear-to-br from-purple-600/20 to-blue-600/20 backdrop-blur border border-purple-500/30">
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 rounded-full bg-purple-500/30 flex items-center justify-center">
               <Sparkles className="w-6 h-6 text-purple-400" />
@@ -379,7 +379,7 @@ const Dashboard = () => (
               )
             )}
           </ul>
-          <button className="w-full py-3 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold hover:opacity-90 transition">
+          <button className="w-full py-3 rounded-xl bg-linear-to-r from-purple-600 to-blue-600 text-white font-semibold hover:opacity-90 transition">
             Upgrade Now
           </button>
         </div>
@@ -407,7 +407,7 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-indigo-950 to-slate-950 overflow-hidden relative">
+    <div className="min-h-screen bg-linear-to-b from-slate-950 via-indigo-950 to-slate-950 overflow-hidden relative">
       <style>{`
         @keyframes twinkle {
           0%, 100% { opacity: 0.3; transform: scale(1); }

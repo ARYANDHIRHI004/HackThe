@@ -30,7 +30,7 @@ const locations = [
   },
   {
     id: 2,
-    name: "Raipur Observatory",
+    name: "Raipur",
     starVis: 92,
     cloudCover: 12,
     lightPollution: 18,
@@ -39,7 +39,7 @@ const locations = [
   },
   {
     id: 3,
-    name: "Bilaspur Hilltop",
+    name: "Bilaspur",
     starVis: 92,
     cloudCover: 12,
     lightPollution: 18,
