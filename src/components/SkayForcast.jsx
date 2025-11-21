@@ -35,9 +35,9 @@ export default function SkyForecast() {
   const chartData = tab === "hourly" ? hourlyData : weeklyData;
 
   return (
-    <div className="w-full p-6 bg-linear-to-b from-black to-gray-900 min-h-screen text-white mt-5">
+    <div className="w-full p-6 mt-20 min-h-screen text-white">
       {/* Page Title */}
-      <h1 className="text-3xl font-bold mb-6 text-cyan-300">🌌 Sky Forecast</h1>
+      <h1 className=" science-gothic text-4xl font-bold mb-6 text-cyan-300"> Sky Forecast 🌌</h1>
 
       {/* Tab Switch */}
       <div className="flex space-x-4 mb-6 text-[14px]">
@@ -154,7 +154,7 @@ export default function SkyForecast() {
                 <LineChart data={chartData}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
                   <XAxis dataKey="time" stroke="#94a3b8" />
-                  <YAxis stroke="#94a3b8" />
+                  <YAxis  />
                   <Tooltip
                     contentStyle={{
                       background: "#0f172a",

@@ -21,18 +21,14 @@ export default function SatelliteTracker() {
   }, []);
 
   return (
-    <div className=" mt-10 min-h-screen w-full p-8  bg-cover bg-center bg-no-repeat text-white">
+    <div className=" mt-20 min-h-screen w-full p-8  bg-cover bg-center bg-no-repeat text-white">
       
       {/* Overlay */}
       <div className="bg-black/60 p-8 rounded-2xl backdrop-blur-xl">
         
         <h1 className="text-4xl font-bold text-cyan-300 mb-6">
-          🛰 Real-Time Satellite & ISS Tracker
+           Real-Time Satellite & ISS Tracker 🛰
         </h1>
-
-        <p className="text-gray-300 mb-8">
-          Track the live location, speed & altitude of the International Space Station and other satellites.
-        </p>
 
         {/* Layout Grid */}
         <div className="grid md:grid-cols-2 gap-8">

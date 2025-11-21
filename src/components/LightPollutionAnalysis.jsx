@@ -31,11 +31,11 @@ export default function LightPollutionAnalysis() {
   };
 
   return (
-    <div className="min-h-screen p-8 bg-linear-to-b from-black via-gray-900 to-black text-white">
+    <div className="min-h-screen p-8 mt-20  text-white">
 
       {/* Page Title */}
       <h1 className="text-4xl font-extrabold text-cyan-300 mb-6">
-        🌃 Light Pollution Analysis
+         Light Pollution Analysis 🌃
       </h1>
 
       {/* Search Input Section */}

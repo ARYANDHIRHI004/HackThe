@@ -121,20 +121,7 @@
     radial-gradient(3px 3px at 450px 400px, white, transparent),
     radial-gradient(3px 3px at 450px 300px, white, transparent),
     radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 9050px 3900px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 850px 780px, white, transparent),
-    radial-gradient(3px 3px at 450px 300px, white, transparent),
-    radial-gradient(3px 3px at 650px 450px, white, transparent),
-    radial-gradient(3px 3px at 400px 350px, white, transparent),
-    radial-gradient(3px 3px at 650px 500px, white, transparent);
+    radial-gradient(3px 3px at 450px 300px, white, transparent);
   background-size: 1000px 1000px;
   animation: blink 4s infinite ease-in-out alternate;
   opacity: 0.9;

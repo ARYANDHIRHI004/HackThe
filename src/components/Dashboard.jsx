@@ -78,7 +78,7 @@ export default function NightSkyMonitoring() {
         </div>
 
         {/* DETAILS */}
-        <div className="rounded-xl p-4 bg-white/5 backdrop-blur border border-gray-600 shadow-lg">
+        <div className="rounded-xl p-4 bg-[#4343432c] backdrop-blur-2xl  border border-gray-600 shadow-lg">
           <h3 className="font-semibold mb-3 text-xl">DETAILS</h3>
 
           <div className="flex flex-col items-center mb-4">

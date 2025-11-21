@@ -13,6 +13,9 @@ import Community from "./components/Community";
 import SatelliteTracker from "./components/SatelliteTracker";
 import LightPollutionAnalysis from "./components/LightPollutionAnalysis";
 import useAuthStore from "./stores/useAuthStore";
+import LoginPage from "./pages/LoginPage";
+import CosmicLogin from "./pages/LoginPage2";
+import SignupPage from "./pages/signupPage";
 
 function App() {
 
@@ -24,6 +27,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={!authUser ? <WelcomePage /> : <Dashboard />} />
+            <Route path="/login" element={!authUser ? <CosmicLogin /> : <Navigate to={"/"}/>} />
+            <Route path="/signup" element={!authUser ? <SignupPage /> : <Navigate to={"/"}/>} />
             <Route path="/sky-forcast" element={authUser ? <SkyForecast /> : <Navigate to={"/"}/>} />
             <Route path="/astronomy-events" element={authUser ? <AstronomyEvents /> : <Navigate to={"/"}/>} />
             <Route path="/astrophotography-planner" element={authUser ? <AstrophotographyPlanner /> : <Navigate to={"/"}/>} />

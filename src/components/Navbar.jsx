@@ -30,21 +30,22 @@ const Navbar = () => {
               <li>Contact Us</li>
             </ul>
             <div className="flex gap-5 items-center">
-              <Button
-                onClick={loginUser}
+              <Link
+                to={"/login"}
                 className="px-5 py-2 rounded-full bg-white/10 backdrop-blur border border-white/20 text-white hover:bg-white/20 transition"
                 size={"lg"}
               >
                 Login
-              </Button>
+              </Link>
 
-              <Button
+              <Link
+              to={"/signup"}
                 className="px-5 py-2 rounded-full bg-white/10 backdrop-blur border border-white/20 text-white hover:bg-white/20 transition"
                 size={"lg"}
                 variant={"secondary"}
               >
                 SIgn Up
-              </Button>
+              </Link>
 
               <ModeToggle />
             </div>
@@ -59,22 +60,22 @@ const Navbar = () => {
             </div>
             <div className="flex gap-2 items-center">
               <ul className="flex gap-10 text-[15px] font-semibold">
-                <Link to={"/"}>
+                <Link className="hover:bg-[#3434342b] p-4 rounded-4xl transition-all hover:scale-106 shadow-blue-400 hover:shadow-xl" to={"/"}>
                   <li>Dashboard</li>
                 </Link>
-                <Link to={"/sky-forcast"}>
+                <Link className="hover:bg-[#3434342b] p-4 rounded-4xl transition-all hover:scale-106 shadow-blue-400 hover:shadow-xl" to={"/sky-forcast"}>
                   <li>Sky Forecast</li>
                 </Link>
-                <Link to={"/astronomy-events"}>
+                <Link className="hover:bg-[#3434342b] p-4 rounded-4xl transition-all hover:scale-106 shadow-blue-400 hover:shadow-xl" to={"/astronomy-events"}>
                   <li>Astronomy Events</li>
                 </Link>
-                <Link to={"/community"}>
+                <Link className="hover:bg-[#3434342b] p-4 rounded-4xl transition-all hover:scale-106 shadow-blue-400 hover:shadow-xl" to={"/community"}>
                   <li>Community</li>
                 </Link>
-                <Link to={"/satellite-tracker"}>
+                <Link className="hover:bg-[#3434342b] p-4 rounded-4xl transition-all hover:scale-106 shadow-blue-400 hover:shadow-xl" to={"/satellite-tracker"}>
                   <li>Satellite Tracker</li>
                 </Link>
-                <Link to={"/light-pollution"}>
+                <Link className="hover:bg-[#3434342b] p-4 rounded-4xl transition-all hover:scale-106 shadow-blue-400 hover:shadow-xl" to={"/light-pollution"}>
                   <li>Light Pollution</li>
                 </Link>
               </ul>

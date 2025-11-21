@@ -16,7 +16,7 @@ export default function AstrophotographyPlanner() {
     <div className="w-full min-h-screen bg-linear-to-b from-black via-gray-900 to-black text-white p-6">
 
       {/* Title */}
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-cyan-300 drop-shadow-lg">
+      <h1 className="science-gothic text-4xl  md:text-4xl font-bold mb-6 text-cyan-300 drop-shadow-lg">
         📸 Astrophotography Planner
       </h1>
 

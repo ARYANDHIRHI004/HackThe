@@ -83,11 +83,11 @@ export default function AstronomyEvents() {
   const currentMonthName = months[selectedMonth];
 
   return (
-    <div className="w-full min-h-screen p-6 text-white bg-cover bg-center bg-fixed bg-no-repeat">
+    <div className="w-full mt-20 min-h-screen p-6 text-white bg-cover bg-center bg-fixed bg-no-repeat">
 
       {/* Title */}
-      <h1 className="text-3xl font-bold mb-6 text-cyan-300 drop-shadow-lg">
-        🌌 Astronomy Events & Monthly Calendar
+      <h1 className="science-gothic text-4xl  font-bold mb-6 text-cyan-300 drop-shadow-lg">
+         Astronomy Events & Monthly Calendar 🌌
       </h1>
 
       <div className="grid md:grid-cols-2 gap-6 ">

@@ -57,9 +57,9 @@ export default function Community() {
   ];
 
   return (
-    <div className="  min-h-screen mt-10 w-full px-6 py-10 bg-cover bg-center  text-white">
+    <div className="  min-h-screen mt-20 w-full px-6 py-10 bg-cover bg-center  text-white">
       {/* Overlay */}   
-      <div className="backdrop-blur-md bg-black/60 p-6 rounded-2xl">
+      <div className="backdrop-blur-md bg-black/50 p-6 rounded-2xl">
 
         {/* Heading */}
         <h1 className="science-gothic text-4xl font-bold mb-6 text-cyan-300 text-">
